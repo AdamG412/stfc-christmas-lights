@@ -21,7 +21,7 @@ class Runner():
 
 import board
 import neopixel
-import time
+
 num_pixels = 300
 pixels = neopixel.NeoPixel(board.GP1, num_pixels)
 pixels.brightness = 0.5
